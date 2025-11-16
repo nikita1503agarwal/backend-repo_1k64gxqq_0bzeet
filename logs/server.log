@@ -1,0 +1,69 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [152] using StatReload
+INFO:     Started server process [154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:50478 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:46944 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:46922 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46936 - "GET /api/tags HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46922 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46936 - "GET /api/tags HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:46976 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:46946 - "GET /api/emails?folder=inbox HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46936 - "GET /api/emails?folder=inbox HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:46978 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:46968 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46972 - "GET /api/emails?folder=inbox HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:49754 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:46968 - "GET /api/tags HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49750 - "GET /api/events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46972 - "GET /api/emails?folder=inbox HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46968 - "GET /api/tags HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:49794 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:49762 - "GET /api/emails?folder=sent HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49774 - "GET /api/tags HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:51944 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:49762 - "GET /api/tags HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49774 - "GET /api/emails?folder=archive HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:51960 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:49762 - "GET /api/tags HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49774 - "GET /api/emails?folder=inbox HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:51972 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:49774 - "OPTIONS /api/emails HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49774 - "POST /api/emails HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49774 - "POST /api/emails HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49774 - "POST /api/emails HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49774 - "GET /api/emails?folder=inbox HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:51974 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:49774 - "GET /api/emails?folder=sent HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49762 - "GET /api/tags HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:51976 - "GET /ws HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:49762 - "POST /api/emails HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49762 - "POST /api/emails HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49762 - "POST /api/emails HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49762 - "GET /api/emails?folder=sent HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     172.20.0.1:51982 - "GET /ws HTTP/1.1" 404 Not Found
